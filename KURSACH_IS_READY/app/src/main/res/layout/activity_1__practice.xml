@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_1__practice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kursach_is_ready.Activity_1_Practice">
+
+
+    <TextView
+        android:text="Тренировка"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTraining"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="Полное определение"
+        android:layout_below="@+id/tvTraining"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btnImpossible"
+        android:elevation="0dp"
+        android:layout_width="170dp"
+        android:layout_height="250dp" />
+
+    <Button
+        android:text="4 варианта"
+        android:layout_below="@+id/tvTraining"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btn4Variant"
+        android:layout_width="170dp"
+        android:layout_height="250dp" />
+
+    <Button
+        android:text="Назад"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btnFallBack1-0" />
+
+    <Button
+        android:text="Бесконечная тренировка"
+        android:layout_height="100dp"
+        android:layout_above="@+id/button3"
+        android:id="@+id/btnEndless_Summer"
+        android:layout_below="@+id/button"
+        android:layout_toStartOf="@+id/button2"
+        android:layout_width="1000dp"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

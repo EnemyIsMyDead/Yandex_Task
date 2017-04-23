@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kursach_is_ready">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GATE">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_1_Practice" />
+        <activity android:name=".Activity_2_Moreover" />
+        <activity android:name=".Activity_3_Holy_Bible" />
+        <activity android:name=".Activity_1_1_Impossible" />
+        <activity android:name=".Activity_1_2_4Variant" />
+        <activity android:name=".Activity_1_3_Endless_Summer" />
+        <activity android:name=".Activity_1_4_Statistic"></activity>
+    </application>
+
+</manifest>
